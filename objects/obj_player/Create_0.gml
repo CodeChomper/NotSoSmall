@@ -4,5 +4,6 @@
 #macro jumping 3
 
 XPOW = 80;
+YPOW = 80;
 
 state = falling;

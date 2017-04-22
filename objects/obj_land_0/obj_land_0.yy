@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_land_0",
     "eventList": [
-        
+        {
+            "id": "520d5d92-7496-45f8-8e2b-19fedde356d8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "40e2972e-2047-479b-b2c5-5b40a29f9d52"
+        },
+        {
+            "id": "b1f3f1ce-f8ac-40c7-b75f-96b67cd61a89",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "40e2972e-2047-479b-b2c5-5b40a29f9d52"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "d914bcbe-aba2-45b1-9237-4401aa43c0e0",

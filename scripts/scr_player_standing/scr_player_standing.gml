@@ -6,7 +6,9 @@ if(left and !right){
 if(!left and right){
 	physics_apply_force(x,y,XPOW,0);
 }
-
+if(jump){
+	physics_apply_impulse(x,y,0,-YPOW);
+}
 
 if(!physics_test_overlap(x, y, 0, obj_land)){
 	state = falling;
