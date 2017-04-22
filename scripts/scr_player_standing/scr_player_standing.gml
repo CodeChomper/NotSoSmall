@@ -1,5 +1,12 @@
 ///@description  handle player standing state
 
+if(phy_speed_x = 0){
+	sprite_index = spr_player_idle;
+} else {
+	sprite_index = spr_player_run;
+}
+
+
 if(left and !right){
 	physics_apply_force(x,y,-XPOW,0);
 }

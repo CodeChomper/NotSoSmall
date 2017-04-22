@@ -25,8 +25,10 @@ if(obj_player.x > x+334 and !land_right and locked){
 
 // Add land to the left
 if(obj_player.x < x + 50 and land_left == noone){
-	land_right.close = true;
-	land_right = noone;
+	if(land_right != noone){
+		land_right.close = true;
+		land_right = noone;
+	}
 	land_left = instance_create_layer(x - 384, y, "Land", obj_land_0);
 	land_left.phy_rotation = -180;
 	land_left.locked = false;
