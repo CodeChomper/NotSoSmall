@@ -39,11 +39,35 @@
             }
         },
         {
+            "Key": "0cdceb31-e6ee-4ee8-9005-d3414dbb700d",
+            "Value": {
+                "id": "af8c3f6d-c558-4800-8d2c-6c7a8fed4c39",
+                "resourcePath": "sprites\\spr_ball\\spr_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0f172c47-f162-4b04-9ee9-a4acf7e35e1b",
+            "Value": {
+                "id": "ea8bb3c6-68d5-4358-afcf-7199610f297f",
+                "resourcePath": "sprites\\spr_land_0\\spr_land_0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "18816b9c-d2e1-4b55-ba75-6246b0ac06eb",
             "Value": {
                 "id": "18c4de7d-db7e-49cc-91b6-a744dc8b1af1",
                 "resourcePath": "views\\18816b9c-d2e1-4b55-ba75-6246b0ac06eb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40e2972e-2047-479b-b2c5-5b40a29f9d52",
+            "Value": {
+                "id": "31d88e94-50d5-4c4a-9873-3822f0c9a2c9",
+                "resourcePath": "objects\\obj_land_0\\obj_land_0.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -60,6 +84,14 @@
                 "id": "8003c720-430f-41df-ad74-23b317b2ef0a",
                 "resourcePath": "views\\4e1428a9-1efa-4430-b2c9-e877214bcbd4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "564330b5-5473-481f-810c-0e73a1f172d2",
+            "Value": {
+                "id": "5003e307-8106-4044-a047-88dca8f9c4a9",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -172,6 +204,14 @@
                 "id": "1a0d593a-f7b1-4508-a520-09b6da878ae4",
                 "resourcePath": "views\\d6fc2dc5-9fe0-4eeb-a837-332d6a335973.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d914bcbe-aba2-45b1-9237-4401aa43c0e0",
+            "Value": {
+                "id": "8002016b-fb13-4359-b619-76d6bc5c200f",
+                "resourcePath": "objects\\obj_land\\obj_land.yy",
+                "resourceType": "GMObject"
             }
         },
         {
