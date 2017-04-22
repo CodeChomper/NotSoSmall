@@ -6,8 +6,9 @@ if(my_health <= 0){
 	instance_destroy();
 }
 
-// Remove this!!!!
-physics_apply_force(x,y,-50,0);
+// One line if else statement... New in GMS2 in a lot of other languages
+image_xscale = looking_right ? -1 : 1;
+
 
 switch(state){
 // Walk around patrol area

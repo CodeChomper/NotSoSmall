@@ -7,4 +7,4 @@ my_health = 100;
 state = b_patrol;
 
 phy_fixed_rotation = true;
-looking_right = false;
+looking_right = true;

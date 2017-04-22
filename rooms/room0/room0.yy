@@ -73,7 +73,7 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_7C0C813C",
-                    "x": 361,
+                    "x": 162,
                     "y": 434,
                     "IsDnD": false,
                     "colour": {
