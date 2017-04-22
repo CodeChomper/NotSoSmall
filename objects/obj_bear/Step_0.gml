@@ -15,6 +15,8 @@ switch(state){
 	case b_patrol:
 		scr_bear_patrol();
 		break;
+	case b_falling:
+		scr_bear_falling();
 // If player is near chase
 	case b_attack:
 		scr_bear_attack();

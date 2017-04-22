@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "cb2497e5-0587-4e42-9a83-448041617651",
+            "Value": {
+                "id": "c931134a-d867-4313-a6df-688de6ffa605",
+                "resourcePath": "scripts\\scr_bear_falling\\scr_bear_falling.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "d3272894-449c-403a-a8de-c1cadf6578b1",
@@ -437,7 +445,8 @@
         "043f2b97-6e5c-4128-969c-8118346cf14f",
         "4c899531-b5e4-4042-879a-99dd4e54ae72",
         "c8a76cd3-817f-439f-a8a2-d1680d7daa4d",
-        "eb28e4c4-1481-461b-9e61-ba511c3e7e9b"
+        "eb28e4c4-1481-461b-9e61-ba511c3e7e9b",
+        "cb2497e5-0587-4e42-9a83-448041617651"
     ],
     "tutorial": ""
 }
