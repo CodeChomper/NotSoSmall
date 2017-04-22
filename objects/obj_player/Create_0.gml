@@ -3,7 +3,7 @@
 #macro standing 2
 #macro jumping 3
 
-XPOW = 80;
+XPOW = 100;
 YPOW = 80;
 
 state = falling;

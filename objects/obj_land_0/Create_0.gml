@@ -1,2 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description init land
+land_left = false;
+land_right = false;
+locked = true;
