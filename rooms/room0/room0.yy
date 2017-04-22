@@ -10,7 +10,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "6c66420a-cb22-4e91-aa82-126e18fa62c6",
-        "8073c30b-38aa-4431-a0e0-ff8038d59777"
+        "8073c30b-38aa-4431-a0e0-ff8038d59777",
+        "4b9f4fb0-52ef-4fb3-ab5a-6df210374ae0"
     ],
     "layers": [
         {
@@ -69,8 +70,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_663C6BD2",
-                    "x": 480,
-                    "y": 64,
+                    "x": 512,
+                    "y": 320,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
@@ -80,6 +81,30 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_663C6BD2",
                     "objId": "564330b5-5473-481f-810c-0e73a1f172d2",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "4b9f4fb0-52ef-4fb3-ab5a-6df210374ae0",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_29674B49",
+                    "x": 0,
+                    "y": 0,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_29674B49",
+                    "objId": "cb030c4b-6a54-42b4-8564-a913c7fab247",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1

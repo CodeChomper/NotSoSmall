@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "564330b5-5473-481f-810c-0e73a1f172d2"
+        },
+        {
+            "id": "88d04469-9110-464c-ade7-ea0acba05aad",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "564330b5-5473-481f-810c-0e73a1f172d2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -35,7 +45,7 @@
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
-    "physicsRestitution": 0.5,
+    "physicsRestitution": 0.2,
     "physicsSensor": false,
     "physicsShape": 0,
     "physicsShapePoints": [
