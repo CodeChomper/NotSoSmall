@@ -6,13 +6,18 @@ right = keyboard_check(vk_right);
 jump = keyboard_check(vk_up);
 attack = keyboard_check(vk_space);
 
+if(my_health <= 0){
+	// Need to make death animation
+	room_restart();
+}
+
 
 //handle direction switching
-if(phy_speed_x > 0 and !facing_right and right){
+if(!facing_right and right){
 	facing_right = true;
 	image_xscale = 1;
 }
-if(phy_speed_x < 0 and facing_right and left){
+if(facing_right and left){
 	facing_right = false;
 	image_xscale = -1;
 }
