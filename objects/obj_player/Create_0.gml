@@ -3,7 +3,7 @@
 #macro standing 2
 #macro jumping 3
 
-XPOW = 45;
+XPOW = 70;
 YPOW = 16;
 state = falling;
 facing_right = true;

@@ -1,4 +1,5 @@
 // Air control
+sprite_index = spr_player_jump;
 if(right and not left){
 	physics_apply_force(x,y,XPOW,0);
 }

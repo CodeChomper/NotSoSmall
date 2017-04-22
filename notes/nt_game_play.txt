@@ -1,0 +1,7 @@
+
+You are a lumber jack!
+You want to chop things down. "Gain Points"
+As you run out of resources you must travel to different lands "platforms".
+As new lands unfold diffrent wild life spawn and try to keep you from chopping.
+Birds are an ever present enemy. "They will poop on you killing you"
+Eat a lumber jack meal for health.
