@@ -2,15 +2,15 @@
 
 switch(state){
 // Walk around patrol area
-	case patrol:
+	case b_patrol:
 		scr_bear_patrol();
 		break;
 // If player is near chase
-	case attack:
+	case b_attack:
 		scr_bear_attack();
 		break;
 // If food is near try to eat
-	case eat:
+	case b_eat:
 		scr_bear_eat();
 		break;
 	default:

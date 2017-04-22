@@ -4,25 +4,28 @@
 left = keyboard_check(vk_left);
 right = keyboard_check(vk_right);
 jump = keyboard_check(vk_up);
+attack = keyboard_check(vk_space);
 
 
 //handle direction switching
-if(phy_speed_x > 0 and !facing_right){
+if(phy_speed_x > 0 and !facing_right and right){
 	facing_right = true;
 	image_xscale = 1;
 }
-if(phy_speed_x < 0 and facing_right){
+if(phy_speed_x < 0 and facing_right and left){
 	facing_right = false;
 	image_xscale = -1;
 }
 
 switch(state){
-	case falling:
+	case p_falling:
 		scr_player_falling();
 		break;
-	case standing:
+	case p_standing:
 		scr_player_standing();
 		break;
+	case p_attacking:
+		scr_player_attacking();
 	default:
 		break;
 }

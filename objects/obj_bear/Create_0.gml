@@ -1,9 +1,9 @@
 /// @description init
-#macro patrol 1
-#macro attack 2
-#macro eat 3
+#macro b_patrol 1
+#macro b_attack 2
+#macro b_eat 3
 image_speed = 0.2;
 
-state = patrol;
+state = b_patrol;
 
 looking_right = false;
