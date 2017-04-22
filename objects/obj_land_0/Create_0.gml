@@ -1,4 +1,5 @@
 /// @description init land
-land_left = false;
-land_right = false;
+land_left = noone;
+land_right = noone;
 locked = true;
+close = false;
