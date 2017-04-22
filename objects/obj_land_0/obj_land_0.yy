@@ -40,32 +40,32 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "e9e1086e-3f62-44cd-8e6a-015d2fd43994",
+            "id": "c743ea61-999f-46b5-84ac-7de987595fda",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
-            "y": 178
+            "y": 180
         },
         {
-            "id": "96a8c214-b678-454c-8e57-f42bcf703c21",
+            "id": "9d41ce7e-7d86-4332-987b-ceaf430331d9",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 383,
-            "y": 178
+            "x": 384,
+            "y": 180
         },
         {
-            "id": "4109f455-ad9c-41a3-a26a-694172c82787",
+            "id": "14b33af9-8135-4e7a-b461-06cfe9d78444",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 383,
-            "y": 193
+            "x": 384,
+            "y": 192
         },
         {
-            "id": "361d8d07-8e3f-4ad2-b674-d368ccf99b81",
+            "id": "8892e34d-35cc-442b-893e-e3511a0b40d5",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
-            "y": 193
+            "y": 192
         }
     ],
     "physicsStartAwake": true,

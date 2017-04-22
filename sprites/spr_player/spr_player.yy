@@ -163,8 +163,8 @@
             "visible": true
         }
     ],
-    "origin": 0,
-    "playbackSpeed": 15,
+    "origin": 7,
+    "playbackSpeed": 30,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
@@ -172,6 +172,6 @@
     "textureGroup": 0,
     "type": 0,
     "width": 32,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 16,
+    "yorig": 31
 }
