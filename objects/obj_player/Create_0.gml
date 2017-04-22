@@ -3,7 +3,8 @@
 #macro standing 2
 #macro jumping 3
 
-XPOW = 100;
-YPOW = 80;
-
+XPOW = 20;
+YPOW = 8;
 state = falling;
+image_speed = 0.3;
+phy_fixed_rotation = true;
