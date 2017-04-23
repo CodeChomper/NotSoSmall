@@ -8,7 +8,9 @@ if(distance_to_object(obj_player) > 350){
 }
 
 // Shit on player
-if(distance_to_object(obj_player) < 180 and !instance_exists(obj_bird_shit)){
+//if(distance_to_object(obj_player) < 180 and !instance_exists(obj_bird_shit)){
+if(distance_to_object(obj_player) < 180 and alarm_get(0) <= 0){
+	alarm_set(0, 40);
 	tmp_shit = instance_create_layer(x,y,"Player",obj_bird_shit);
 	tmp_shit.phy_speed_x = x_spd;
 }

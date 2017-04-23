@@ -8,7 +8,10 @@ if(my_health <= 0){
 	
 	
 	score += 10;
-	instance_destroy();
+	if(alarm_get(0) <= 0){
+		alarm_set(0,15);
+		state = dead;
+	}
 }
 
 // One line if else statement... New in GMS2 in a lot of other languages

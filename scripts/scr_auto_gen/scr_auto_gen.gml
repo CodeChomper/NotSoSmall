@@ -8,12 +8,12 @@ var food = irandom_range(0,5);
 
 if(image_index < 3){ // Mountains
 	var x_delta = random_range(32,sprite_width-32);
-	if(food > 2 and obj_player.my_health < 100){ // 3/5th chance
+	if(food >= 2 and obj_player.my_health < 100){ // 3/5th chance
 		instance_create_layer(x + x_delta, y - 70,"Pickups",obj_waffles);
 	}
 } else { // Desert
 	var x_delta = random_range(32,sprite_width-32);
-	if(food > 2 and obj_player.my_health < 100){ // 3/5th chance
+	if(food >= 2 and obj_player.my_health < 100){ // 3/5th chance
 		instance_create_layer(x + x_delta, y - 70,"Pickups",obj_bacon);
 	}
 }

@@ -3,6 +3,7 @@
 #macro b_attack 2
 #macro b_eat 3
 #macro b_falling 4
+#macro dead 5
 
 XPOW = 60;
 MAX_X_SPEED = 5;
