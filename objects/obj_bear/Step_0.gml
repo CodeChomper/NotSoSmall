@@ -2,6 +2,11 @@
 
 if(my_health <= 0){
 	// Need to make death animation
+	// Blood!!!
+	x_delta = looking_right ? 15 : -15;
+	part_particles_create(global.ps,x + x_delta,y-10,global.pt_blood,50);
+	
+	
 	score += 10;
 	instance_destroy();
 }

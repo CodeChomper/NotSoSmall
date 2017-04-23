@@ -8,7 +8,7 @@ if(!physics_test_overlap(x, y, 0, obj_land)){
 
 // Can only attack while standing
 if(attack){
-	state = p_attacking;
+	state = attacking;
 	return;
 }
 

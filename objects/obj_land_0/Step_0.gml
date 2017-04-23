@@ -1,7 +1,11 @@
 /// @description Add land
+
+if(locked and auto_gen){
+	auto_gen = false;
+	scr_auto_gen();
+}
+
 if(close){
-	
-	
 	if(ceil(phy_rotation) == 180){
 		//if(land_right != noone)land_right.land_left = noone;
 		instance_destroy();

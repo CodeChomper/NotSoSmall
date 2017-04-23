@@ -8,7 +8,8 @@ attack = keyboard_check(vk_space);
 
 if(my_health <= 0){
 	// Need to make death animation
-	room_restart();
+	part_particles_create(global.ps,x,y-20,global.pt_blood,50);
+	if(alarm_get(1)<= 0) alarm_set(1,30);
 }
 
 
@@ -29,7 +30,7 @@ switch(state){
 	case p_standing:
 		scr_player_standing();
 		break;
-	case p_attacking:
+	case attacking:
 		scr_player_attacking();
 	default:
 		break;
