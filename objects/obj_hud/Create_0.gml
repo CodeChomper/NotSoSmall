@@ -6,7 +6,9 @@
 #macro waiting 5
 #macro input_name 6
 #macro send_score 7
+
 player_name = "";
+
 url_base = "http://www.codechomper.com/high_score/";
 state = get_scores;
 top_scores = "";

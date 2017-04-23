@@ -3,6 +3,19 @@ switch(state){
 	case waiting:
 		break;
 	case input_name:
+		if(keyboard_check_released(vk_anykey)){
+			show_debug_message("key pressed: " + player_name);
+			if(string_length(keyboard_string) <= 10){
+				player_name = string_upper(keyboard_string);
+			}
+			if(keyboard_lastkey == vk_backspace){
+				var len = string_length(player_name);
+				string_delete(player_name, len, 1);
+			}
+			if(keyboard_lastkey == vk_enter and player_name != ""){
+				state = send_score;
+			}
+		}
 		break;
 	case send_score:
 		state = waiting;
