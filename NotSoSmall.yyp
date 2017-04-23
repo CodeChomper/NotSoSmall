@@ -159,14 +159,6 @@
             }
         },
         {
-            "Key": "394a2e58-817c-4a95-b69d-35af0b7bb361",
-            "Value": {
-                "id": "cdef3493-d46f-45dd-a25e-3a3f3d79f64d",
-                "resourcePath": "scripts\\scr_part_blood_init\\scr_part_blood_init.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "40e2972e-2047-479b-b2c5-5b40a29f9d52",
             "Value": {
                 "id": "31d88e94-50d5-4c4a-9873-3822f0c9a2c9",
@@ -276,14 +268,6 @@
                 "id": "84cdcd41-09f4-4e34-9c38-72229c8e0952",
                 "resourcePath": "notes\\nt_game_play.yy",
                 "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "6d957f78-9ff1-4faa-8ac3-c3ea3c0d020c",
-            "Value": {
-                "id": "f0febb00-9bcd-4e62-a9c7-050d1c8a62c8",
-                "resourcePath": "objects\\obj_part_system\\obj_part_system.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -608,7 +592,6 @@
         "eb28e4c4-1481-461b-9e61-ba511c3e7e9b",
         "cb2497e5-0587-4e42-9a83-448041617651",
         "7f2ea75a-ae7c-4993-bf6c-bce5af147795",
-        "394a2e58-817c-4a95-b69d-35af0b7bb361",
         "863c92fc-97c8-4cad-89ee-4c21ddfb055b"
     ],
     "tutorial": ""

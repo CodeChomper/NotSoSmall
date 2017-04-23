@@ -8,8 +8,9 @@ attack = keyboard_check(vk_space);
 
 if(my_health <= 0){
 	// Need to make death animation
-	part_particles_create(global.ps,x,y-20,global.pt_blood,50);
+	//part_particles_create(obj_part_system.ps,x,y-20,obj_part_system.pt_blood,50);
 	if(alarm_get(1)<= 0) alarm_set(1,30);
+	return;
 }
 
 

@@ -1,5 +1,8 @@
 /// @description HUD Code
 draw_set_font(fnt_hud);
+draw_set_color(c_white);
+
+draw_text(500,100,"version 1.4");
 
 switch(state){
 	case show_scores:
