@@ -1,5 +1,11 @@
 /// @description Add land
 
+// Make first land always woods
+if(land_left == noone and land_right == noone){
+	image_index = 1;
+}
+
+
 if(locked and auto_gen){
 	auto_gen = false;
 	scr_auto_gen();

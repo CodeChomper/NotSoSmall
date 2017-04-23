@@ -1,2 +1,7 @@
 /// @description You Die
-game_restart();
+if(obj_hud.player_name == ""){
+	obj_hud.state = input_name;
+}else{
+	obj_hud.state = send_score;
+}
+room_goto_previous();

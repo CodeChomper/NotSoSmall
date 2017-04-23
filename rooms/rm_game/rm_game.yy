@@ -14,7 +14,9 @@
         "42f45c95-25bd-416f-bd02-c2d6a97b8253",
         "4cbf72d5-748d-4c31-9f6d-26339bdb087f",
         "b99c6a8b-b5d6-4b7a-b8a2-9df0205d1b7e",
-        "dafb6746-1d87-4c6b-b711-fbe79b3f21da"
+        "dafb6746-1d87-4c6b-b711-fbe79b3f21da",
+        "521dba59-35b4-458d-86d4-d938d0364c5e",
+        "fbc3201f-8a79-44ef-9966-877ed7ff33f3"
     ],
     "layers": [
         {
@@ -132,6 +134,54 @@
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_2358D026",
                     "objId": "513eea39-3437-46c7-9f4f-97416a1f221f",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "521dba59-35b4-458d-86d4-d938d0364c5e",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_5F9A3EC7",
+                    "x": 376,
+                    "y": 503,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_5F9A3EC7",
+                    "objId": "b4824c44-4f52-4b85-8906-56cf114ca196",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                },
+                {
+                    "id": "fbc3201f-8a79-44ef-9966-877ed7ff33f3",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_2F6CCBD1",
+                    "x": 95,
+                    "y": 501,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_2F6CCBD1",
+                    "objId": "62d0c4ef-11c8-4d89-84c8-ec2549522cba",
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1

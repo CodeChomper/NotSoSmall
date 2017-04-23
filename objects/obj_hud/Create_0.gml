@@ -1,11 +1,25 @@
 /// @description INIT HUD
 #macro menu 1
 #macro game_play 2
-
-state = menu;
+#macro get_scores 3
+#macro show_scores 4
+#macro waiting 5
+#macro input_name 6
+#macro send_score 7
+player_name = "";
+url_base = "http://www.codechomper.com/high_score/";
+state = get_scores;
 top_scores = "";
-get_id = noone;
-post_id = noone;
+get = noone;
+post = noone;
+
+
+
+
+
+
+
+
 
 
 
