@@ -6,9 +6,9 @@ right = keyboard_check(vk_right);
 jump = keyboard_check(vk_up);
 attack = keyboard_check(vk_space);
 
-if(my_health <= 0){
+if(my_health <= 0 and obj_hud.state = waiting){
 	// Need to make death animation
-	//part_particles_create(obj_part_system.ps,x,y-20,obj_part_system.pt_blood,50);
+	instance_create_layer(x,y-20,"PartSystem",obj_blood);
 	if(alarm_get(1)<= 0) alarm_set(1,30);
 	return;
 }

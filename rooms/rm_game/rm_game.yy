@@ -20,36 +20,10 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "id": "cf85c156-d7fa-4fb4-9c9f-b3cbc1d556fe",
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "depth": 0,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": true,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "layers": [
-                
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "name": "PartSystem",
-            "userdefined_depth": false,
-            "visible": true,
-            "instances": [
-                
-            ]
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "id": "c1a6c940-4954-4f84-aa09-cb393db20f96",
             "modelName": "GMRInstanceLayer",
             "mvc": "1.0",
-            "depth": 100,
+            "depth": 0,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -187,6 +161,32 @@
                     "scaleX": 1,
                     "scaleY": 1
                 }
+            ]
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "id": "cf85c156-d7fa-4fb4-9c9f-b3cbc1d556fe",
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+                
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "name": "PartSystem",
+            "userdefined_depth": false,
+            "visible": true,
+            "instances": [
+                
             ]
         },
         {

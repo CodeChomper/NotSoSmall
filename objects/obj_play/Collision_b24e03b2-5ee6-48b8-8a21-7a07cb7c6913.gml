@@ -1,2 +1,4 @@
 /// @description Play when the player hits the button
-room_goto_next();
+if(obj_hud.state != input_name){
+	room_goto_next();
+}

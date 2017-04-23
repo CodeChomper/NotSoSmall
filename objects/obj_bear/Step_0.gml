@@ -4,7 +4,7 @@ if(my_health <= 0){
 	// Need to make death animation
 	// Blood!!!
 	x_delta = looking_right ? 15 : -15;
-	//part_particles_create(obj_part_system.ps,x + x_delta,y-10,obj_part_system.pt_blood,50);
+	instance_create_layer(x,y-15,"PartSystem",obj_blood);
 	
 	
 	score += 10;
