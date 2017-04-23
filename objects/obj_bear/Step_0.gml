@@ -33,3 +33,7 @@ switch(state){
 	default:
 		break;
 }
+
+if(phy_position_y > room_height){
+	instance_destroy();
+}

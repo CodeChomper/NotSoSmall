@@ -6,6 +6,9 @@ if(locked and auto_gen){
 }
 
 if(close){
+	with(obj_tree){
+		phy_speed_y = 1;
+	}
 	if(ceil(phy_rotation) == 180){
 		//if(land_right != noone)land_right.land_left = noone;
 		instance_destroy();

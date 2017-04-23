@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_menu_land",
     "eventList": [
-        
+        {
+            "id": "d33f31a1-d1fa-430a-9317-38859d7b4d84",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "16d815e8-4b6a-4081-a823-88c44a0d6376"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "d914bcbe-aba2-45b1-9237-4401aa43c0e0",

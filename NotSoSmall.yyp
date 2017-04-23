@@ -71,18 +71,18 @@
             }
         },
         {
-            "Key": "0cdceb31-e6ee-4ee8-9005-d3414dbb700d",
-            "Value": {
-                "id": "af8c3f6d-c558-4800-8d2c-6c7a8fed4c39",
-                "resourcePath": "sprites\\spr_ball\\spr_ball.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0f172c47-f162-4b04-9ee9-a4acf7e35e1b",
             "Value": {
                 "id": "ea8bb3c6-68d5-4358-afcf-7199610f297f",
                 "resourcePath": "sprites\\spr_land_0\\spr_land_0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0fa8ce12-26a5-4312-89f0-9d1bc5e9c857",
+            "Value": {
+                "id": "883cf0c0-5f07-43f0-b0d1-62a07a176446",
+                "resourcePath": "sprites\\spr_scorpion_walk\\spr_scorpion_walk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "a1a4b8f8-11c4-40ce-aded-a3f642bf14e4",
+            "Value": {
+                "id": "9907be83-8dfe-4b25-9679-edce6269774c",
+                "resourcePath": "sprites\\spr_scorpion_attack\\spr_scorpion_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a47e1e70-1e39-4e4c-8451-3da105fd9dcd",
             "Value": {
                 "id": "06cd5838-ae21-414d-90a6-284f09e6d1a9",
@@ -396,6 +404,14 @@
                 "id": "60fe57c2-6512-4e8d-a4bc-0c8c73051a0c",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac4af7f9-43cf-4e39-b13a-c4ca90a5ba3e",
+            "Value": {
+                "id": "f793a3ad-618a-4e01-bc28-3d3119baa565",
+                "resourcePath": "objects\\obj_scorpion\\obj_scorpion.yy",
+                "resourceType": "GMObject"
             }
         },
         {

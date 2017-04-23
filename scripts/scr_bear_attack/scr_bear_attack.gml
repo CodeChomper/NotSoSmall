@@ -12,5 +12,5 @@ if(obj_player.phy_position_x > phy_position_x){
 	looking_right = false;
 }
 if(abs(phy_speed_x) < MAX_X_SPEED){
-		physics_apply_force(x,y,looking_right?XPOW:-XPOW,0);
+		physics_apply_force(x,y,looking_right ? 2 * XPOW: 2 * -XPOW,0);
 }
