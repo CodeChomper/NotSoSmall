@@ -1,0 +1,1 @@
+/// @description Wait for song part to finish before looping

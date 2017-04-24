@@ -1,0 +1,1 @@
+audio_play_sound(snd_music_build_up,1,false);
