@@ -23,7 +23,7 @@ if(make_enemy > 50 and (land_left !=noone or land_right != noone) ){
 	for(var i=0; i<how_many_enemies; i++){
 		x_delta = random_range(32,sprite_width-32);
 		var type = image_index <= 3 ? obj_bear : obj_scorpion;
-		instance_create_layer(x + x_delta, y - 30,"Player",type);
+		instance_create_layer(x + x_delta, y - 30,"BadGuys",type);
 	}
 }
 
@@ -33,7 +33,7 @@ if(make_tree > 3){
 	
 	for(var i=0; i< how_many_trees; i++){
 		x_delta = random_range(32,sprite_width-32);
-		var tmp_tree = instance_create_layer(x + x_delta, y - 10,"Player",obj_tree);
+		var tmp_tree = instance_create_layer(x + x_delta, y - 10,"Trees",obj_tree);
 		var tree_img = 0;
 		if(image_index < 3){ // Mountains
 			tree_img = irandom_range(0,1);
