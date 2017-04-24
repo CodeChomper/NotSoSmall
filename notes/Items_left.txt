@@ -1,8 +1,13 @@
 //Kill guy when fall off the platform.
 //Health bar
 //Keep trees from spawning on first level
-Better font for score
-Format score output from server
-Make volume control for music
+//Better font for score
+//Format score output from server
+//Make volume control for music
+//Slow down the idle to match the music
+//Fix score flashing on menu
+MAKE farm biome with freaking BrowCows
+
 Make volume control for sfx
+
 Try to make music loop / transition better

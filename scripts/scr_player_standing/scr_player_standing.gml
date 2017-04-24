@@ -1,5 +1,5 @@
 ///@description  handle player standing state
-
+image_speed = 0.3;
 // if  not standing switch to falling
 if(!physics_test_overlap(x, y, 0, obj_land)){
 	state = p_falling;
@@ -14,8 +14,10 @@ if(attack){
 
 if(phy_speed_x = 0){
 	sprite_index = spr_player_idle;
+	image_speed = .15;
 } else {
 	sprite_index = spr_player_run;
+	image_speed = 0.3;
 }
 
 

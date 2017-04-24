@@ -3,7 +3,8 @@
 
 if(music_playing){
 	if(room == rm_menu){
-		if(!audio_is_playing(snd_intro) and !audio_is_playing(snd_intro_head)){
+		if(!audio_is_playing(snd_intro) and !audio_is_playing(snd_intro_head)
+			and !audio_is_playing(snd_bridge)){
 			intro_riff = audio_play_sound(snd_intro,1,false);
 		}
 	}

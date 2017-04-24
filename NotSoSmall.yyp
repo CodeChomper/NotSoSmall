@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "087431e4-9aa0-44ba-b143-6692215c7990",
+            "Value": {
+                "id": "7a6d507e-12d9-4748-9cd0-7b10c5ba00ba",
+                "resourcePath": "sprites\\spr_top_scores\\spr_top_scores.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "088bcc41-d3c9-416a-ba89-5e34e2344346",
             "Value": {
                 "id": "ae19a678-6e82-448a-9ecc-3f88f50f63fa",
@@ -183,11 +191,27 @@
             }
         },
         {
+            "Key": "2c78b377-9c9c-4298-8ccd-edf4ab619af4",
+            "Value": {
+                "id": "39e45d24-57af-4090-a6c6-06b570a66c29",
+                "resourcePath": "sprites\\spr_music_button\\spr_music_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3618cdff-21b5-42a7-adea-072f3b8b79bb",
             "Value": {
                 "id": "77e2f819-bd00-471a-89c4-eb2c3c28b3b1",
                 "resourcePath": "sounds\\snd_jump\\snd_jump.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "38dc1462-983a-4cf6-ae72-7debc7b516dd",
+            "Value": {
+                "id": "8650d50a-8416-4c31-a530-7d7942ca1fd1",
+                "resourcePath": "fonts\\fnt_top_scores\\fnt_top_scores.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -331,6 +355,14 @@
             "Value": {
                 "id": "e9d0df00-29fd-4785-9dc3-57cf4ab3567e",
                 "resourcePath": "objects\\obj_blood\\obj_blood.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69c2e8c2-75f5-4a45-ac37-fd854db51c91",
+            "Value": {
+                "id": "d740e034-5f9b-4319-88b6-9b8e54c07cb8",
+                "resourcePath": "objects\\obj_brown_cow\\obj_brown_cow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -619,6 +651,14 @@
             "Value": {
                 "id": "27b2620b-67ca-456f-a7cc-588fee55ecdd",
                 "resourcePath": "sprites\\spr_snow_man\\spr_snow_man.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3ceec27-110f-47f3-b1ef-fe16222de53f",
+            "Value": {
+                "id": "f1990e34-a595-4bfe-83e3-1ad086213bc9",
+                "resourcePath": "sprites\\spr_brown_cow\\spr_brown_cow.yy",
                 "resourceType": "GMSprite"
             }
         },
