@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "rm_menu",
     "IsDnD": false,
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -16,7 +16,8 @@
         "737e3826-5956-45fe-aa3f-6674ccbe488a",
         "2893d994-8539-426a-90dc-91d3b829d110",
         "191ab7ff-a730-4b8b-aa1e-3583f0b5155e",
-        "60d0631f-118b-47b9-b960-448aa2be388b"
+        "60d0631f-118b-47b9-b960-448aa2be388b",
+        "0e1e572d-80bd-48d8-a3ae-5cef8d3543e1"
     ],
     "layers": [
         {
@@ -42,7 +43,30 @@
             "userdefined_depth": false,
             "visible": true,
             "instances": [
-                
+                {
+                    "id": "0e1e572d-80bd-48d8-a3ae-5cef8d3543e1",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_6EE1B177",
+                    "x": 32,
+                    "y": 0,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_6EE1B177",
+                    "objId": "9ed1d5a1-603f-424b-82b9-eb047c4d0196",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
+                }
             ]
         },
         {
