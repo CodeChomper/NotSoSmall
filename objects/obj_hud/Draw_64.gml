@@ -12,4 +12,7 @@ switch(state){
 		//draw_set_halign(fa_left);
 		draw_text(300,550,"Enter your name: " + player_name);
 		break;
+	case waiting:
+		draw_text(30,30,"Score: " + string(score));
+		break;
 }

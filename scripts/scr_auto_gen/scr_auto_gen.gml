@@ -27,7 +27,7 @@ if(make_enemy > 50 and (land_left !=noone or land_right != noone) ){
 	}
 }
 
-if(make_tree > 3){
+if(make_tree > 3 and (land_left !=noone or land_right != noone)){
 	
 	var x_delta = random_range(32,sprite_width-32);
 	

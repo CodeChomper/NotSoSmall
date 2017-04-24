@@ -1,0 +1,8 @@
+//Kill guy when fall off the platform.
+//Health bar
+//Keep trees from spawning on first level
+Better font for score
+Format score output from server
+Make volume control for music
+Make volume control for sfx
+Try to make music loop / transition better

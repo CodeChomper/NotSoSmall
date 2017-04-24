@@ -6,6 +6,8 @@ right = keyboard_check(vk_right);
 jump = keyboard_check(vk_up);
 attack = keyboard_check(vk_space);
 
+if(my_health > 100) my_health = 100;
+
 if(my_health <= 0 and obj_hud.state == waiting){
 	// Need to make death animation
 	instance_create_layer(x,y-20,"PartSystem",obj_blood);
