@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "67f8daea-d504-4b96-af8c-4f3398afa93b",
+            "Value": {
+                "id": "3dbb78dc-010c-4ab7-9947-d9f3d73b3994",
+                "resourcePath": "objects\\obj_snow_man\\obj_snow_man.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6981f93e-5c72-47c0-b147-5638a0e13655",
             "Value": {
                 "id": "6e1a0e4d-8ee5-4601-8a24-164ee11ec68f",
@@ -596,6 +604,14 @@
                 "id": "77970353-2f1d-40de-ae6b-1d3fad55119b",
                 "resourcePath": "sounds\\snd_yum\\snd_yum.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ded146c9-117e-4302-81ed-10da5d30b91f",
+            "Value": {
+                "id": "27b2620b-67ca-456f-a7cc-588fee55ecdd",
+                "resourcePath": "sprites\\spr_snow_man\\spr_snow_man.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -22,7 +22,7 @@ if(image_index > 3){ // Desert
 if(make_enemy > 50 and (land_left !=noone or land_right != noone) ){
 	for(var i=0; i<how_many_enemies; i++){
 		x_delta = random_range(32,sprite_width-32);
-		var type = image_index <= 3 ? obj_bear : obj_scorpion;
+		var type = image_index <= 3 ? obj_bear : (image_index > 5 ? obj_snow_man : obj_scorpion);
 		instance_create_layer(x + x_delta, y - 30,"BadGuys",type);
 	}
 }
