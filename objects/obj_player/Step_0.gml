@@ -6,10 +6,14 @@ right = keyboard_check(vk_right);
 jump = keyboard_check(vk_up);
 attack = keyboard_check(vk_space);
 
-if(my_health <= 0 and obj_hud.state = waiting){
+if(my_health <= 0 and obj_hud.state == waiting){
 	// Need to make death animation
 	instance_create_layer(x,y-20,"PartSystem",obj_blood);
 	if(alarm_get(1)<= 0) alarm_set(1,30);
+	if(!audio_is_playing(snd__player_death)){
+		audio_play_sound(snd__player_death,1,false);
+	}
+	
 	return;
 }
 

@@ -27,5 +27,6 @@ if(!left and right){
 }
 if(jump){
 	physics_apply_impulse(x,y,0,-YPOW);
+	audio_play_sound(snd_jump,1,false);
 }
 
