@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "44863f9a-6609-43e0-98db-d80ba88586eb",
+            "Value": {
+                "id": "f2b33a7b-62b6-460f-a555-f51f2cd50043",
+                "resourcePath": "sounds\\snd_bridge\\snd_bridge.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "492a38cf-17b4-4609-8bc3-d7dc98506d8f",
             "Value": {
                 "id": "4614f5cf-b29d-4d41-a7ee-c9a36729a494",
